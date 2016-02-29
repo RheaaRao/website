@@ -1,7 +1,7 @@
 /* Rheaa's website is called wwww.raoreports.com 
 */
 body {
-	background: yellow;
+	background: #B9C5C8;
 	border-color: black;
 }
 
@@ -15,12 +15,11 @@ h1 {
 }
 
 p:first-letter {
-	color: purple;
 	font-size: 18px;
 }
 
 p:first-line {
-	color: white;
+	color: #FCD04A;
 }
 
 hr {
@@ -34,7 +33,7 @@ color:purple;
 #content {
 	max-width: 700px;
 	border-width: 2px;
-	background-color: gray;
+	background-color: #B9C5C8;
 	border-style: solid;
 	margin:50px auto 0 auto;
 	padding: 20px;
