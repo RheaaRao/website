@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Intro to JavaScript</title>
+</head>
+<body>
+  <h1 class="headline"> Intro to JavaScript </h1>
+  <div id="container"></div>
+  <script> 
+  //My first javascript
+  //document.write('Hello, World');
+
+  var bodytext= document.createElement('p');
+  console.log(bodytext);
+
+  var hello = document.createTextNode('Hello, World');
+  console.log(hello);
+
+  bodytext.appendChild(hello);
+
+  var c= document.getElementById('container');
+  console.log(c);
+
+  c.appendChild(bodytext);
+
+  // function syntax
+  //var myFunc = function(){
+ //console.log(text);
+ // }
+
+  //myFunc("my first function"); 
+  //myFunc("my second function"); 
+ //myFunc("my third function"); 
+
+ //function myFunc(param){
+ 	//console.log(param);
+ 	//var container= document.getElementById('container')
+ 	//console.log(container);
+ 	//var sub= document.createElement('h2')
+ 	//var name = document.createTextNode(param);
+ 	//sub.appendChild(name);
+ 	//container.appendChild(sub);
+ //}
+// myFunc("Rheaa");
+ //myFunc("Tanvi");
+ //myFunc("Daniela");
+
+ function popup (param) { 
+ 	alert("Hello" + param);
+}
+ 	//var container= document.getElementById('container')
+ 	//console.log(container);
+ 	//var sub = document.createTextNode('Hello'+ name);
+ 	//sub.appendChild('Hello' + name);
+ 	//container.appendChild(sub)
+ 
+
+ popup("Rheaa");
+
+  </script>
+</body>
+</html>
